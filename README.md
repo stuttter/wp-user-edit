@@ -22,7 +22,7 @@ No. All of WordPress's core database tables remain untouched.
 
 ### Does this plugin integrate with user roles?
 
-No. This plugin filters `map_meta_cap` and uses `is_user_member_of_blog()` to allow 
+No. This plugin filters `map_meta_cap` and uses `is_user_member_of_blog()` to restrict `edit_users` capabilities down to users of the current site.
 
 ### Where can I get support?
 
