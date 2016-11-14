@@ -36,7 +36,7 @@ function wp_user_edit_map_meta_caps( $caps = array(), $cap = '', $user_id = 0, $
 		case 'edit_users' :
 		case 'manage_network_users' :
 
-			// Allow user to edit themsevles
+			// Allow user to edit themselves
 			if ( ( 'edit_user' === $cap ) && isset( $args[0] ) && ( $user_id === $args[0] ) ) {
 				break;
 			}
